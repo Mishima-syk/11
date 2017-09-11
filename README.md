@@ -1,4 +1,4 @@
-# Mishima.syk #11 Git and GitHab hands on
+# Mishima.syk #11 Git and GitHub hands on
 
 ## Index
 
