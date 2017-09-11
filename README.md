@@ -27,6 +27,7 @@ Gitの題材何にしようか
 - マージ
 - コンフリクトの解消
 - git init --bare
+- redmineとの連携の話
 - GUIのツール紹介（今回は使わない）
 
 ### GitHub
