@@ -1,10 +1,23 @@
 # Git Handson
 
+- jupyter notebookをgitで管理する例を通して簡単な使い方を学びます。
+
 ## Install
+
+### Git
 
 https://git-scm.com/downloads
 
 から自分のOS用のものをダウンロードしてインストール
+
+### jupyter
+
+*** Condaでjupyter installする方法 誰か書いて ***
+
+### pandas
+
+*** Condaでjupyter installする方法 誰か書いて ***
+
 
 ## 最初の設定(最低限やらないといけないこと)
 
@@ -28,6 +41,12 @@ nameとemail addressの設定はやっておく
 http://blog.karky7.com/2012/12/git.html
 
 ## リポジトリの作成
+
+initialize
+
+    mkdir msm11
+    cd msm11
+    git init
 
 ## ファイルの登録
 
