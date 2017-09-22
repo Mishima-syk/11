@@ -50,9 +50,22 @@ initialize
 
 ## ファイルの登録
 
+    jupyter notebook
+
+[IRISのPCAをやったら](ipynbs/msm11_1.ipynb)コミットします。
+
+    git add msm11.ipynb
+    git ci -m "Add IRIS-PCA" (or git commit -m "Add IRIS-PCA")
+
 ## 状態確認
 
-## コミットを行う
+status(st)で状態を確認できます。
+
+    git st (git status)
+
+コミット履歴は
+
+    git log
 
 ## さらに色々追加
 
