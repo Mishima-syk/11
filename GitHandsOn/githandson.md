@@ -221,6 +221,13 @@ masterブランチに移ってtsneブランチをマージします
 
 ## コンフリクトの解消
 
+今回やる必要あるのか？
+以下参照でいいのでは？
+
+http://qiita.com/hkengo/items/f47b9f50ac2dca407d12
+
+# Gitの分散管理に関して知る
+
 ## git init --bare
 
 ## redmineとの連携の話
