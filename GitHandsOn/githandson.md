@@ -94,6 +94,18 @@ status(st)で状態を確認できます。
 
     git log
 
+## 図の見た目を気にして綺麗に並べる
+
+[少し変更を施して](ipynbs/msm11_3.ipynb)コミットします。
+
+一応変更があるか確認
+
+    git status (git st)
+
+ではコミットします。
+
+    git ci -am "Change plot" (or git commit -am "Add LDA-PCA")
+
 ## リバート（必要か？）
 
 ## ブランチ
