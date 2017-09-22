@@ -54,6 +54,9 @@ initialize
 
 [IRISのPCAをやったら](ipynbs/msm11_1.ipynb)コミットします。
 
+余談ですが、GitHubにipynb形式のファイルを
+アップロードするとフォーマットしてくれます（md/markdown形式も）
+
     git add msm11.ipynb
     git ci -m "Add IRIS-PCA" (or git commit -m "Add IRIS-PCA")
 
