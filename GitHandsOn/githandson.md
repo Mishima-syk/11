@@ -106,7 +106,36 @@ status(st)で状態を確認できます。
 
     git ci -am "Change plot" (or git commit -am "Add LDA-PCA")
 
-## リバート（必要か？）
+## kPCA
+
+[IRISのKernel PCAを追加したら](ipynbs/msm11_4.ipynb)コミットします。
+
+一応変更があるか確認
+
+    git status (git st)
+
+ではコミットします。
+
+    git ci -am "Add kPCA" (or git commit -m "Add kPCA")
+
+## revert
+
+**コミットはしたもののkPCAはいまいちだったのでやっぱりなかったことにしたい**
+
+消したいコミットIDを確認します
+
+    git log
+
+ではrevertします
+
+    git revert fd668aea2c08 (idをコピペ)
+
+確認
+
+    git log
+
+実際になかったことになっていることを確認します。
+プロットが2つ並んでいるコミットまで戻っているはず
 
 ## ブランチ
 
