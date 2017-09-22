@@ -70,11 +70,29 @@ status(st)で状態を確認できます。
 
     git log
 
-## さらに色々追加
+## さらにLDAを追加してコミット
 
-## さらにコミット
+[IRISのLDAをやったら](ipynbs/msm11_2.ipynb)コミットします。
+
+一応変更があるか確認
+
+    git status (git st)
+
+ではコミットします。
+
+    git add msm11.ipynb
+    git ci -m "Add LDA-PCA" (or git commit -m "Add LDA-PCA")
+
+またはaオプションをつけるとGit管理下にあって変更のあるものは全てaddされるので
+次のように一行でかけます（僕は普段こっち）。
+
+    git ci -am "Add LDA-PCA" (or git commit -am "Add LDA-PCA")
 
 ## 履歴確認
+
+   コミット履歴を見てみましょう
+
+    git log
 
 ## リバート（必要か？）
 
