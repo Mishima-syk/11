@@ -1,4 +1,4 @@
-# Git Handson
+# Git Hands-on
 
 - jupyter notebookをgitで管理する例を通して簡単な使い方を学びます。
 
@@ -228,9 +228,40 @@ http://qiita.com/hkengo/items/f47b9f50ac2dca407d12
 
 # Gitの分散管理に関して知る
 
+Gitで管理されているディレクトリは簡単に複製を作ることが出来ます。
+
+    cd ~
+    mkdir deb
+    cd deb
+    git clone ~/msm11
+
+と打つだけで先程まで行っていたjupyterタスクの複製が作られます。
+
+もちろんホスト間でもcloneは可能で
+
+    git clone host:~/msm11
+    git clone https://host/msm11
+
+のようなこともできます。会社で使う場合は大抵sshをつかったクローンが多くなると思います。
+
+分散管理に関してはこのあたりを読むと良いでしょう。(ほかおすすめがあれば追記、またはわかりやすい説明を挿入)
+
+https://git-scm.com/book/ja/v1/Git-%E3%81%A7%E3%81%AE%E5%88%86%E6%95%A3%E4%BD%9C%E6%A5%AD-%E5%88%86%E6%95%A3%E4%BD%9C%E6%A5%AD%E3%81%AE%E6%B5%81%E3%82%8C
+
 ## git init --bare
 
+もしプロジェクトの管理専用のGitディレクトリを作成したい場合は、bareオプションをつけてinitします
+
+    git init --bare
+
+このオプションで作られたディレクトリでは作業が出来ず。pushしたりcloneするだけのディレクトリになります。
+
 ## redmineとの連携の話
+
+redmineのサーバーと同じホストにGitディレクトリを作ると、redmineと連携させることが出来ます。
+
+- redmine上でコードの差分管理ができる
+- チケットとブランチを対応させることで効率的な開発が行える
 
 ## GUIのツール紹介（今回は使わない）
 
