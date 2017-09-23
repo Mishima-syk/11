@@ -1,15 +1,5 @@
 # GitHub Hands-on
 
-## GitHub Accountの登録
- 
-## remote repoの作成
-
-## bareオプションを使うと作業ディレクトリ無しのリポジトリが作られる
-
-## 作ったリポジトリをoriginに指定して、pushする
-
-## remoteのお話ここまで（イントラはこれで結構使える）
-
 ## GitHubアカウントの登録
 
 ## SSHの設定

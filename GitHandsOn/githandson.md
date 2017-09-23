@@ -256,6 +256,8 @@ https://git-scm.com/book/ja/v1/Git-%E3%81%A7%E3%81%AE%E5%88%86%E6%95%A3%E4%BD%9C
 
 このオプションで作られたディレクトリでは作業が出来ず。pushしたりcloneするだけのディレクトリになります。
 
+## 作ったリポジトリをoriginに指定して、pushする
+
 ## redmineとの連携の話
 
 redmineのサーバーと同じホストにGitディレクトリを作ると、redmineと連携させることが出来ます。
