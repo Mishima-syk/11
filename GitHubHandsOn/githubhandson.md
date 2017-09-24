@@ -52,7 +52,7 @@ GitHub のページの右上にforkというボタンがあるのでクリック
 
 ちなみに某UGMは「君らのプレゼン資料プルリクしといてくれやー」って言われていたのでこんな感じになってます。
 
-![RDKitUGM](images/rdkitugm.png)
+![RDKitUGM](../images/rdkitugm.png)
 
 
 ## github-page必要？
