@@ -12,11 +12,16 @@ https://git-scm.com/downloads
 
 ### jupyter
 
-*** Condaでjupyter installする方法 誰か書いて ***
+普通に入れられる、または伝統的なインストールのお作法が好きな方はそっちで入れてください。
+macだとbrewで入れたりするといいでしょう。
 
-### pandas
+#### anaconda
 
-*** Condaでjupyter installする方法 誰か書いて ***
+そうでない人達は
+[データサイエンティストを目指す人のpython環境構築 2016](https://qiita.com/y__sama/items/5b62d31cb7e6ed50f02c)を参考に
+インストールしてください
+
+python3を入れたほうが良いでしょう。
 
 
 ## 最初の設定(最低限やらないといけないこと)
