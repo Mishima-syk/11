@@ -1,0 +1,8 @@
+# About Git
+
+# version management system
+
+- conpare with CVS
+- Basic concept
+- 
+
