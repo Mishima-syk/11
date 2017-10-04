@@ -1,4 +1,5 @@
 # About Version management system
+# 15min
 
 ## Back ground
 
@@ -15,6 +16,11 @@
 
 - ローカルリポジトリ、リモートリポジトリ
 - コミットの話
+- branch
 - pushとpull
 - clone
+- branch
+- merge
 
+
+## reference
