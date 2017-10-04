@@ -268,7 +268,7 @@ https://git-scm.com/book/ja/v1/Git-%E3%81%A7%E3%81%AE%E5%88%86%E6%95%A3%E4%BD%9C
 redmineのサーバーと同じホストにGitディレクトリを作ると、redmineと連携させることが出来ます。
 
 - redmine上でコードの差分管理ができる
-- チケットとブランチを対応させることで効率的な開発が行える
+- [チケットとブランチを対応させる](https://git-scm.com/book/ja/v1/Git-%E3%81%AE%E3%83%96%E3%83%A9%E3%83%B3%E3%83%81%E6%A9%9F%E8%83%BD-%E3%83%96%E3%83%A9%E3%83%B3%E3%83%81%E3%81%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%81%AE%E5%9F%BA%E6%9C%AC)ことで効率的な開発が行える
 
 ## jupyterのテンプレートを用意したい。
 
@@ -281,5 +281,6 @@ redmineのサーバーと同じホストにGitディレクトリを作ると、r
 
 ## GUIのツール紹介（今回は使わない）
 
-- gitk
-- sourcetree
+- gitk(これはgit入れると使えるようになっているはず)
+- [sourcetree](https://ja.atlassian.com/software/sourcetree)
+- [github desktop](https://desktop.github.com/)
