@@ -74,4 +74,6 @@ GitHub上にサイトを作る機能があります。
 
 https://pages.github.com/
 
+最近[Mishima.syk](https://mishima-syk.github.io/)のサイトを作ったので、興味があればいじってみてください。
+
 
