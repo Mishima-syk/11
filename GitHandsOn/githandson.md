@@ -271,7 +271,8 @@ https://git-scm.com/book/ja/v1/Git-%E3%81%A7%E3%81%AE%E5%88%86%E6%95%A3%E4%BD%9C
 
 既に手元にあるGitレポジトリを新たに作ったbareのリポジトリにpushするにはどうしたらいいでしょうか？
 
-{{詳しく書く}}
+    git remote add origin remote repository location
+    git push -u origin master
 
 ## GitHubへ
 
