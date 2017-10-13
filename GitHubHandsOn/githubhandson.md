@@ -64,9 +64,11 @@ Issue報告するだけでもプロジェクトに貢献していることにな
 プルリクエスト送れればもっといいし、本家に取り込まれればそのままメンテしてもらえる
 可能性が高いので自分のメンテコストも下がるしいいです。
 
-## その他知っていると楽しいこと
+## イントラでも使いたい
 
-なんかあったかな、忘れた
+- [GitLab](https://about.gitlab.com/)
+- [GitBucket](https://gitbucket.github.io/)
+- [Gitea](https://gitea.io/en-US/)
 
 ## github-page必要？
 
