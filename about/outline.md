@@ -17,12 +17,15 @@
 - ローカルリポジトリ、リモートリポジトリ
 - コミットの話
 - branch
-- pushとpull
-- clone
-- branch
-- merge
+- ~~pushとpull~~
+- ~~clone~~
+- ~~branch~~
+- ~~merge~~
 
 
 ## reference
-- url
+- https://www.backlog.jp/git-guide/
+- https://git-scm.com/
+- https://www.slideshare.net/matsukaz/git-17499005
+ 
 
