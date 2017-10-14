@@ -20,12 +20,12 @@ https://help.github.com/articles/connecting-to-github-with-ssh/
 
 ### 既存のリポジトリをGitHubで管理する
 
-    git remote add origin remote repository URL
+    git remote add origin [remote repository URL]
     git push -u origin master
 
 もし新規なプロジェクトだったら
 
-    git clone repository URL
+    git clone [repository URL]
 
 でクローンして書き始めれば良い
 
