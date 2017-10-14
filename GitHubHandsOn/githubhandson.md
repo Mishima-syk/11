@@ -14,7 +14,7 @@ https://help.github.com/articles/connecting-to-github-with-ssh/
 
 - プロファイルページの右側のnew repositoryをクリックする。 
 - 基本的にpublicで(privateは有料オプション)
-- gitignoreとlicenseを洗濯
+- gitignoreとlicenseを選択
 
 リポジトリ作成後Readme.md作成画面が出てくる
 
