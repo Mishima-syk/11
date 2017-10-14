@@ -267,6 +267,42 @@ https://git-scm.com/book/ja/v1/Git-%E3%81%A7%E3%81%AE%E5%88%86%E6%95%A3%E4%BD%9C
     git remote add origin remote repository location
     git push -u origin master
 
+## 任意のコミットをチェックアウトする
+
+ログを見てチェックアウトしたいバージョンを調べます。
+
+    git log
+
+    commit 38aaefb7c6d2d228569876dd6648a256a2fa7fdc
+    Author: Kazufumi Ohkawa <kerolinq@gmail.com>
+    Date:   Fri Sep 22 10:07:01 2017 +0200
+    
+        Add IRIS-tSNE
+    
+    commit 72495d9d7c44e4ffc21917ded456e591c23d36d0
+    Author: Kazufumi Ohkawa <kerolinq@gmail.com>
+    Date:   Fri Sep 22 06:04:03 2017 +0200
+    
+        Revert "Add kPCA"
+        
+        This reverts commit fd668aea2c08bf734e968c6d980539dc8f0273f5.
+    
+    commit fd668aea2c08bf734e968c6d980539dc8f0273f5
+    Author: Kazufumi Ohkawa <kerolinq@gmail.com>
+    Date:   Fri Sep 22 05:58:55 2017 +0200
+    
+        Add kPCA
+    
+    commit e931e56747f4105e84151e1e8d2e988c42889cfa
+    Author: Kazufumi Ohkawa <kerolinq@gmail.com>
+    Date:   Fri Sep 22 05:08:08 2017 +0200
+    
+        Change Figure
+
+commit番号を指定してcheckoutします。全部指定しなくても一意に決まればOKです
+
+    git co fd668aea2c08bf7
+
 ## コンフリクトの解消
 
 複数箇所で作業するとコンフリクトという現象が発生します。
