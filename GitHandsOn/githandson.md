@@ -224,13 +224,6 @@ masterブランチに移ってtsneブランチをマージします
     git tag # タグ一覧が見れます
     git tag v1.0 # タグをセット
 
-## コンフリクトの解消
-
-今回やる必要あるのか？
-以下参照でいいのでは？
-
-http://qiita.com/hkengo/items/f47b9f50ac2dca407d12
-
 # 複数箇所で使う（Gitの分散管理に関して知る）
 
 一人で一通り使えるようになったら、複数箇所で使うことを考えます。例えば自分のノートパソコンとサーバーで使うといった用途です。
@@ -273,6 +266,13 @@ https://git-scm.com/book/ja/v1/Git-%E3%81%A7%E3%81%AE%E5%88%86%E6%95%A3%E4%BD%9C
 
     git remote add origin remote repository location
     git push -u origin master
+
+## コンフリクトの解消
+
+複数箇所で作業するとコンフリクトという現象が発生します。
+今回はそこまでやらないので、コンフリクトしたら以下を参照して解決してください☆
+
+http://qiita.com/hkengo/items/f47b9f50ac2dca407d12
 
 ## GitHubへ
 
