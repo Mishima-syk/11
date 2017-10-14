@@ -13,3 +13,6 @@ Gitで管理できるようになることを目指します。
 - [Why Git?](about/outline.md)
 - [Git Hands-on](GitHandsOn/githandson.md)
 - [GitHub Hands-on](GitHubHandsOn/githubhandson.md)
+
+### Lightning Talk
+- [bono](http://bonohu.jp/blog/2017/10/14/how-we-use-github-in-dbcls/)
