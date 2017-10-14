@@ -6,7 +6,7 @@ https://help.github.com/articles/signing-up-for-a-new-github-account/
 
 ## SSHの設定
 
-https://help.github.com/articles/signing-up-for-a-new-github-account/
+https://help.github.com/articles/connecting-to-github-with-ssh/
 
 # 前のセッションでつくったリポジトリをGitHubで管理してみよう
 
